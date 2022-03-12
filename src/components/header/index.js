@@ -9,20 +9,24 @@ import { Link as RouterLink } from "react-router-dom";
 
 const headersData = [
   {
-    label: "Listings",
+    label: "Home",
     href: "/listings",
   },
   {
-    label: "Mentors",
+    label: "Admission",
     href: "/mentors",
   },
   {
-    label: "My Account",
+    label: "Tenders",
     href: "/account",
   },
   {
-    label: "Log Out",
+    label: "Contacts",
     href: "/logout",
+  },
+  {
+    label: "Login",
+    href: "/login",
   },
 ];
 
