@@ -23,7 +23,7 @@ export default function LandingPage() {
         <img
           src={"/icons/Iconic Image@4x.png"}
           alt="Iconic"
-          style={{ display: "flex", width: "300px", height: "300px" }}
+          style={{ display: "flex", width: "500px", height: "500px" }}
         />
       </div>
       <div
