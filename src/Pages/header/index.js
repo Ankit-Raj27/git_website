@@ -46,10 +46,10 @@ export default function Header() {
     // Directly returning the mapped array of objects
     return headersData.map((comp) => {
       return (
-        <button class="MenuButtons">
-        <Link to={comp.href} key={comp.label}>
-          <img src={comp.icon} height={50} alt={comp.label} />
-        </Link>
+        <button className="IconButtons">
+          <Link to={comp.href} key={comp.label}>
+            <img src={comp.icon} height={50} alt={comp.label} />
+          </Link>
         </button>
       );
     });
@@ -58,7 +58,7 @@ export default function Header() {
   // This is the layout returned after all the processing
   return (
     <AppBar className={header} position="relative">
-      <Toolbar style={{width:'90%', alignSelf: 'center'}}>
+      <Toolbar style={{ width: "90%", alignSelf: "center" }}>
         <div className="flex-container">
           <span className="college-name">
             Gyanodaya Institute of Technology
