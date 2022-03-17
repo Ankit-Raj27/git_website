@@ -46,9 +46,11 @@ export default function Header() {
     // Directly returning the mapped array of objects
     return headersData.map((comp) => {
       return (
+        <button class="MenuButtons">
         <Link to={comp.href} key={comp.label}>
           <img src={comp.icon} height={50} alt={comp.label} />
         </Link>
+        </button>
       );
     });
   }
