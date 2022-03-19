@@ -2,6 +2,7 @@ import "./App.css";
 import Header from "./Pages/header";
 import { Route, Routes } from "react-router-dom";
 import LandingPage from "./Pages/LandingPage";
+import Contacts from "./Pages/Contacts";
 
 function App() {
   return (

@@ -22,7 +22,7 @@ const headersData = [
   },
   {
     label: "Contacts",
-    href: "/contacts",
+    href: "./Pages/Contacts",
     icon: "/icons/Contacts Icon.png",
   },
   {
