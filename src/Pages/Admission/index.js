@@ -1,5 +1,5 @@
 import React from "react";
-export default function Contacts() {
+export default function Admission() {
   return (
     <div
       style={{
@@ -9,7 +9,7 @@ export default function Contacts() {
         width: "100%",
         height: "100%",
       }}
-    >gcg
+    >sdf
     </div>
-  );
-}
+    );
+  }

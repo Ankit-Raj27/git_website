@@ -16,13 +16,13 @@ const headersData = [
     icon: "/icons/Admission Icon.png",
   },
   {
-    label: "Tenders",
-    href: "/tenders",
+    label: "Results",
+    href: "/Results",
     icon: "/icons/Tenders Icon.png",
   },
   {
     label: "Contacts",
-    href: "./Pages/Contacts",
+    href: "/Contacts",
     icon: "/icons/Contacts Icon.png",
   },
   {
@@ -63,7 +63,7 @@ export default function Header() {
           <span className="college-name">
             Gyanodaya Institute of Technology
           </span>
-          <span style={{ float: "right" }}>{getMenuButtons()}</span>
+          <span style={{ float: "right"}}>{getMenuButtons()}</span>
         </div>
       </Toolbar>
     </AppBar>

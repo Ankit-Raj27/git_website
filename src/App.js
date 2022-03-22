@@ -3,6 +3,9 @@ import Header from "./Pages/header";
 import { Route, Routes } from "react-router-dom";
 import LandingPage from "./Pages/LandingPage";
 import Contacts from "./Pages/Contacts";
+import Login from "./Pages/Login";
+import Admission from "./Pages/Admission";
+import Results from "./Pages/Results";
 
 function App() {
   return (
@@ -16,6 +19,10 @@ function App() {
         style={{ width: "90%", alignSelf: "center",marginTop: '25px' }}>
         <Routes>
           <Route path="/" element={<LandingPage />} />
+          <Route path="/Contacts" element={<Contacts/>} />
+          <Route path="/Login" element={<Login/>} />
+          <Route path="/Admission" element={<Admission/>} />
+          <Route path="/Results" element={<Results/>} />
         </Routes>
       </div>
     </div>
