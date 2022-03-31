@@ -6,7 +6,7 @@ export default function NoticeBoard(props) {
         height: "35%",
         display: "flex",
         flexDirection: "column",
-        backgroundColor: "#D3D3D3",
+        backgroundColor: "#bfc1c2",
       }}
     >
       <div

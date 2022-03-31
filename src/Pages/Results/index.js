@@ -10,9 +10,9 @@ export default function Results() {
         flex: "1",
         width: "100%",
         height: "100%",
-        backgroundColor: "red",
+        backgroundColor: "#D3D3D3",
       }}>
-      sds
+      <div></div>
     </div>
     );
   }

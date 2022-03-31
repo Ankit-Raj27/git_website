@@ -9,6 +9,7 @@ export default function LandingPage() {
         flex: "1",
         width: "100%",
         height: "100%",
+        backgroundColor: "#D3D3D3",
       }}
     >
       <div

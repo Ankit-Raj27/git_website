@@ -8,7 +8,7 @@ export default function Login() {
         flex: "1",
         width: "100%",
         height: "100%",
-        marginTop:"50px",
+        backgroundColor: "#D3D3D3",
       }}
     >
       <form style={{
