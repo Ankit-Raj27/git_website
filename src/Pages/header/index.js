@@ -73,7 +73,7 @@ export default function Header() {
     <AppBar className={header} position="relative">
       <Toolbar style={{ width: "90%", alignSelf: "center" }}>
         <div className="flex-container">
-        <img className="header-logo" src="/public/icons/logo1.png" height={"10"} width={"10"}></img>
+        <img className="header-logo" src="/icons/logo1.png"></img>
           <span className="college-name">
             Gyanodaya Institute of Technology
           </span>

@@ -44,5 +44,11 @@
 button:hover {
   background-color: #686868;
   color: #D3D3D3 !important;
-
+}
+.header-logo
+{
+  height: 60px;
+  width: 70px;
+  margin-right: -260px;
+  margin-left: -50px;
 }
