@@ -9,36 +9,36 @@ const headersData = [
   {
     label: "Home",
     href: "/",
-    icon: "/icons/Home Icon.png",
-    selected: "/icons/selected/Home Icon selected.png",
+    icon: "/icons/selected/Home Icon selected.png",
+    selected: "/icons/Home Icon.png",
    
   },
   {
     label: "Admission",
     href: "/admission",
-    icon: "/icons/Admission Icon.png",
-    selected: "/icons/selected/Admission Icon selected.png",
+    icon: "/icons/selected/Admission Icon selected.png",
+    selected: "/icons/Admission Icon.png",
    
   },
   {
     label: "Results",
     href: "/Results",
-    icon: "/icons/Tenders Icon.png",
-    selected: "/icons/selected/Tenders Icon selected.png",
+    icon: "/icons/selected/Tenders Icon selected.png",
+    selected: "/icons/Tenders Icon.png",
   
   },
   {
     label: "Contacts",
     href: "/Contacts",
-    icon: "/icons/Contacts Icon.png",
-    selected: "icons/selected/Contacts Icon selected.png",
+    icon: "/icons/selected/Contacts Icon selected.png",
+    selected: "icons/Contacts Icon.png",
  
   },
   {
     label: "Login",
     href: "/login",
-    icon: "/icons/Login Icon.png",
-    selected: "/icons/selected/Login Icon selected.png",
+    icon: "/icons/selected/Login Icon selected.png",
+    selected: "/icons/Login Icon.png",
     
   },
 ];
