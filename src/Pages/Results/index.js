@@ -1,5 +1,7 @@
-import { red } from "@material-ui/core/colors";
+
 import React from "react";
+
+
 
 export default function Results() {
   return (
@@ -12,7 +14,7 @@ export default function Results() {
         height: "100%",
         backgroundColor: "#D3D3D3",
       }}>
-      <div></div>
+
     </div>
     );
   }
