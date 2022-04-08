@@ -14,7 +14,7 @@ export default function Results() {
         height: "100%",
         backgroundColor: "#D3D3D3",
       }}>
-
+       
     </div>
     );
   }
